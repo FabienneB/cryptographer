@@ -1,0 +1,16 @@
+LineLength:
+  Max: 120  
+
+MethodLength:
+  Max: 15
+
+Metrics/AbcSize: 
+  Max: 20
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude: 
+    - './cryptographer_test.rb'
+
+FrozenStringLiteralComment: 
+  Enabled: false
